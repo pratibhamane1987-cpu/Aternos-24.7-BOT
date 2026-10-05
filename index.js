@@ -4,8 +4,8 @@ const http = require('http');
 const { Server } = require('socket.io');
 const mineflayer = require('mineflayer');
 
-const serverHost = process.env.SERVER_HOST || 'jayboy9129.aternos.me';
-const serverPort = parseInt(process.env.SERVER_PORT || '35164', 10);
+const serverHost = process.env.SERVER_HOST || 'GEMSMP10.aternos.me';
+const serverPort = parseInt(process.env.SERVER_PORT || '25784', 10);
 const botUsername = process.env.BOT_USERNAME || 'bjuttdrd';
 const minecraftVersion = process.env.MC_VERSION || false;
 const reconnectInterval = parseInt(process.env.RECONNECT_INTERVAL_MS || '40000', 10);
